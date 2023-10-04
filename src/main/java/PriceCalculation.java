@@ -1,7 +1,7 @@
 public class PriceCalculation {
     public static final int MAXIMUM_PRICE = 1000000;
 
-    public static int calculateFinalPrice(double originalPrice) {
+    public static int calculateFinalPrice(int originalPrice) {
         if (originalPrice <= 0 || originalPrice > MAXIMUM_PRICE) {
             System.out.println("Price is invalid");
             return -1;
